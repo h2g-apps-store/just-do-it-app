@@ -1,4 +1,5 @@
 import { Hiro } from "./components/Hiro";
+import { Tasks } from "./components/Tasks";
 
 function App() {
   return (
@@ -18,12 +19,8 @@ function App() {
             </button>
           </div>
         </form>
-        <div className="bg-red-600 w-auto">
-          <ul>
-            <li>un</li>
-            <li>Deux</li>
-          </ul>
-        </div>
+        <hr />
+        <Tasks />
       </div>
     </div>
   );
